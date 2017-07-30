@@ -1,0 +1,2 @@
+# SchoolApplication
+OPEN "index.html"
