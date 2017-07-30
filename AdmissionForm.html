@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mSchool: Admission Form</title>
+    <link rel="icon" type="image/png" href="school.png" />
+    <link rel="stylesheet" type="text/css" href="AdmissionForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <div class="bgimg">
+  <header>
+    
+     <div class="jumbotron jumbotron-fixed-top">
+        <h1 style="text-align: center; color: #000000"><b>Welcome to School</b></h1>   
+        
+            
+            <nav class="navbar fixed-top navbar-light bg-faded">
+                <a class="navbar-brand" href="MainFile.html" style="text-align: right;">Home</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                </div>
+              </nav>
+                      <hr>
+                      <h3><b><u>ADDMISSION FORM</u></b></h3>
+
+       </div>
+       </header>
+  <div class="container">
+
+<div class="col-md-3"></div>
+<div class="col-md-12">
+    
+    <div class="panel panel-default">
+     <div class="panel-body">
+     <div class="col-md-3"></div>
+    <div class="col-md-12"> 
+    
+          <form>
+      	          <div class="col-md-3"></div>
+                  <div class="col-md-12"> 
+				<div>
+  						<label for="fname"> First Name  </label>
+  						<input type="text" id="fname" name="stud_fname">
+  				</div>
+  				<div>
+  						<label for="mname"> Middle Name  </label>
+  						<input type="text" id="mname" name="stud_dname">
+  				</div>
+  				<div>
+  						<label for="lname"> Last Name  </label>
+  						<input type="text" id="lname" name="stud_lname">
+  				</div>
+  				<div>
+  						<label for="mothername"> Mothers Name  </label>
+  						<input type="text" id="mothername" name="stud_mothername">
+  				</div>
+				<div>
+						<label for="sadd"> Address  </label>
+  						<textarea id="sadd" name="stud_sadd" rows ="3" cols="40"></textarea>
+				</div>
+				<div>
+						<label for="district">District  </label>
+							<select>
+								<option>Select</option>
+							</select>
+				</div>
+				<div>
+						<label for="taluka">Taluka  </label>
+							<select>
+								<option>Select</option>
+							</select>
+				</div>
+				<div>	
+						<label for="nationality">Nationality  </label>
+						<input type="text" id ="nationality" value="Indian" name="stud_nationality">
+				</div>
+				<div>
+						<label for="religion">Religion  </label>
+							<select>
+									<option>Select</option>
+							 </select>
+				</div>	
+				<div>
+						<label for="caste">Caste  </label>
+						<select><option>Select</option></select>
+				</div>
+				<div>
+						<label for="sub_caste"> Sub Caste  </label>
+						<select><option>Select</option></select>
+				</div>
+				<div>
+						<label for="birthplace">Birth Place  </label>
+						<input type="text" id="birthplace" name="stud_birthplace">
+				</div>
+				<div>
+						<label for="dob">Date Of Birth  </label>
+						<input type="Date" id="dob" name="stud_dob">
+				</div>
+				<div>
+						<label for="pic">Photo Of Student  </label>
+						<label class="btn btn-primary btn-file">
+                  Browse 
+              </label>
+  				</div>
+  				<div>	<label for="lsname">Last School Attended Name  </label>
+  						<input type="text" id="lsname" name="stud_lsname">
+  				</div>
+  				 <div class="form-group">
+  						<label for="lsyear">Last School Attended Year  </label>
+  						<input type="month" id="lsyear" name="stud_lsyear">
+  				</div>
+  				<div>
+  						<label for="lsmed">Last School Attended Medium  </label>
+  						<input type="text" id="lsmed" name="stud_lsmed">
+  				</div>
+  				<div>
+  						<label for="lsdoc">Last School Attended Documets  </label>
+  						<label class="btn btn-primary btn-file">
+                  Browse 
+              </label>
+  				</div>
+  				<div>
+  						<label for="addclass">Admission For Class  </label>
+  						<select>
+  								<option>Select</option>
+  								<option id="addclass" value="jrkg">Jr. Kg</option>
+  								<option id="addclass" value="srkg">Sr. Kg</option>
+  								<option id="addclass" value="1st">1st</option>
+  								<option id="addclass" value="2nd">2nd</option>
+  								<option id="addclass" value="3rd">3rd</option>
+  								<option id="addclass" value="4th">4th</option>
+  								<option id="addclass" value="5th">5th</option>
+  								<option id="addclass" value="6th">6th</option>
+  								<option id="addclass" value="7th">7th</option>
+  								<option id="addclass" value="7th">8th</option>
+  			 					<option id="addclass" value="9th">9th</option>
+  								<option id="addclass" value="10th">10th</option>
+  					  </select>
+  				</div>
+  				<div>
+  						<label for="textarea1">Students Strengths  </label>
+  						<textarea  id="textarea1" rows="3" cols="40" name="stud_strengths"></textarea>
+  				</div>
+  				<div>
+  						<label for="textarea2">Students Waekness  </label>  
+  						<textarea  id="textarea2" rows="3" cols="40" name="stud_waekness"></textarea>
+  				</div>
+  				<div>
+  						<label for="division">Division  </label>
+  							<select>
+  								<option>Select</option>
+  							</select>
+ 						 					
+  				</div>
+
+          <div class="col-md-3"></div>
+  				<div class="col-md-6">
+          <div class="button" >
+            
+            <button type="submit" class="btn btn-primary btn-lg" ">Submit</button>
+  					<button type="reset" class="btn btn-danger btn-lg">Reset </button>
+  				</div>
+		      </div> 
+          <div class="col-md-3"></div>
+          </div>
+        <div class="col-md-3"></div>
+		</form>
+    </div>
+    
+    </div>
+    </div>
+
+	<footer style="text-align: center; color:#000000; font-size: 20px;">PS &copy; All Rights Reserverd</footer>
+  </div>
+  <script type="text/javascript" src="functionality.js"></script> 
+</body>
+</html>

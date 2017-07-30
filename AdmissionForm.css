@@ -1,0 +1,169 @@
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+ 
+ }
+
+.jumbotron{
+  width: auto;
+  height: auto;
+  position: relative;
+    background: transparent;
+    text-align:center;
+    margin-bottom: 0 ;
+}
+
+.jumbotron1{
+  width: auto;
+  height: auto;
+  position: relative;
+    background: transparent;
+    text-align:auto;
+    margin-bottom: 0 ;
+}
+
+.bgimg {
+    background-color:#ccc;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: justify;
+
+}
+h3
+{
+  padding-top: 10px;
+}
+panel-default
+{
+  margin-top: 24px;
+  border-style: hidden;
+  margin-left: auto;
+  margin-right: auto; 
+  background: transparent;
+}
+hr {
+    margin: auto;
+    width: 100%; 
+    line-height: 3px;
+     
+}
+
+  form {
+  margin: 0 auto;
+  width: justify;
+  padding: 1em;
+/*  border: 1px solid #CCC ;
+  border-radius: 1em;*/
+  border: hidden;
+  background:transparent; 
+  text-align: auto;
+}
+   fieldset{
+
+    margin: auto;
+    padding: auto;
+    border: 1px dashed #CCC;
+    border-color: #D6DBDF;
+    border-radius: 1em;
+    border : hidden;
+   
+ }
+
+ 
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-flex;
+  width: 300px;
+  text-align: auto  ;
+}
+
+input,textarea{
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+input:focus,textarea:focus{
+  border-color: #000;
+  border-radius: 4px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+
+.button {
+
+  padding-left: 90px; 
+  }
+
+button {
+   margin-left: .5em;
+
+}
+footer {
+      background-color: transparent;
+      color: black;
+      padding: auto;
+    }
+
+    .btn-primary,.btn-danger
+{
+  width: justify;
+  margin-right: 5px;
+}

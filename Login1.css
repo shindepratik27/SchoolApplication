@@ -1,0 +1,51 @@
+
+.jumbotron{
+	width: auto;
+	height: auto;
+	position: relative;
+    background: transparent;
+    text-align:center;
+    margin-bottom: 0 ;
+}
+
+.field input 
+{
+	width: 138px;
+}
+h2{
+	font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    padding: 0;
+    margin-bottom: 24px;
+}
+.panel-default
+{
+	margin-top: 24px;
+	border-style: hidden;
+	margin-left: auto;
+	margin-right: auto; 
+}
+#grad1
+{
+	 height: 50px;
+	background: linear-gradient(to right, rgb(62, 134, 249)	, rgb(62, 165, 64));
+	text: center;
+}
+.btn-primary
+{
+	width: justify;
+	margin-right: 5px;
+}
+
+.checkbox
+{
+	font-size: 13px;
+}
+
+.glyphicon-apple {
+	margin-top: 8px;
+    font-size: 25px;
+    color: white;
+
+}

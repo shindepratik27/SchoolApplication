@@ -1,0 +1,109 @@
+
+.jumbotron1{
+	width: auto;
+	height: auto;
+	position: relative;
+    background: transparent;
+    text-align:auto;
+    margin-bottom: 0 ;
+}
+
+.bgimg {
+    background-color:#ccc;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #000000;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+
+}
+hr {
+    margin: auto;
+    width: 80%;	
+    line-height: 3px;
+     
+}
+
+.w3-content {
+	background: transparent;
+}
+
+.mySlides {display:none border-radius:1px;}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+ footer {
+      background-color: transparent;
+      color: black;
+      padding: auto;
+    }
+
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+   border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+#hr1 {
+    margin: auto;
+    width: auto%;	
+    line-height: 3px;
+    color: black;
+}
+ul.c1 li.c2
+{
+	color: #000000;
+	
+
+}
+
+li.c3
+{
+	color: #000000;
+
+	}
+
+.col-md-4#div1
+{
+	color: #000000;
+
+}
